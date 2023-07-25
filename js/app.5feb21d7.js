@@ -949,7 +949,7 @@
 		De = {
 			class: "maxBuy"
 		},
-		_e = Object(a["i"])(" ETH)"),
+		_e = Object(a["i"])(" BNB)"),
 		Le = {
 			class: "control"
 		},
@@ -996,7 +996,7 @@
 			class: "ml-2",
 			id: "buy_title"
 		},
-		"Buy with ETH", -1),
+		"Buy with BNB", -1),
 		Ve = [He, Re],
 		Ue = {
 			key: 3
@@ -1057,7 +1057,7 @@
 		ct = {
 			class: "maxBuy"
 		},
-		lt = Object(a["i"])(" ETH "),
+		lt = Object(a["i"])(" BNB "),
 		ot = {
 			key: 0
 		},
@@ -1078,7 +1078,7 @@
 		ht = {
 			class: "maxBuy"
 		},
-		ft = Object(a["i"])(" ETH ");
+		ft = Object(a["i"])(" BNB ");
 		function yt(e, t, n, s, i, r) {
 			return Object(a["u"])(),
 			Object(a["f"])("div", ue, [Object(a["g"])("div", de, [Object(a["g"])("div", pe, [me, Object(a["g"])("form", null, ["Sale Ended" !== n.saleStatus ? (Object(a["u"])(), Object(a["f"])("div", be, [Object(a["g"])("p", ge, Object(a["A"])(r.presaleCountdownContent), 1), "Sale Ended" !== n.saleStatus ? (Object(a["u"])(), Object(a["f"])("div", he, [Object(a["g"])("strong", null, [Object(a["g"])("span", fe, Object(a["A"])(i.days), 1), Object(a["g"])("span", ye, Object(a["A"])(i.hours), 1), Object(a["g"])("span", ve, Object(a["A"])(i.minutes), 1), Object(a["g"])("span", je, Object(a["A"])(i.seconds), 1)])])) : Object(a["e"])("", !0)])) : Object(a["e"])("", !0), Object(a["g"])("div", Oe, [Object(a["g"])("div", we, [Object(a["g"])("div", ke, [Object(a["g"])("div", xe, [Object(a["g"])("div", {
@@ -1086,7 +1086,7 @@
 				id: "myBar",
 				style: Object(a["q"])("width: ".concat(i.progressBar, "%; height: 15px; background: #48c774"))
 			},
-			null, 4)])])]), Object(a["g"])("div", Ce, [Object(a["g"])("div", Te, Object(a["A"])(i.saleAmount) + " ETH ", 1), Object(a["g"])("div", Me, Object(a["A"])(e.presaleData.totalPresale) + " ETH ", 1)])]), "Sale Ended" !== n.saleStatus ? (Object(a["u"])(), Object(a["f"])("div", Se, [Object(a["g"])("label", Ae, [Be, Object(a["g"])("span", De, Object(a["A"])(r.amountMaxContent), 1), _e]), Object(a["g"])("div", Le, [Object(a["g"])("div", Ie, [Object(a["E"])(Object(a["g"])("input", {
+			null, 4)])])]), Object(a["g"])("div", Ce, [Object(a["g"])("div", Te, Object(a["A"])(i.saleAmount) + " BNB ", 1), Object(a["g"])("div", Me, Object(a["A"])(e.presaleData.totalPresale) + " BNB ", 1)])]), "Sale Ended" !== n.saleStatus ? (Object(a["u"])(), Object(a["f"])("div", Se, [Object(a["g"])("label", Ae, [Be, Object(a["g"])("span", De, Object(a["A"])(r.amountMaxContent), 1), _e]), Object(a["g"])("div", Le, [Object(a["g"])("div", Ie, [Object(a["E"])(Object(a["g"])("input", {
 				id: "presaleAmount",
 				class: "input",
 				type: "number",
@@ -1132,7 +1132,7 @@
 				}),
 				class: "ant-btn ant-btn-primary"
 			},
-			Object(a["A"])(r.claimTokensContent), 1)])) : Object(a["e"])("", !0)]), Ze])]), Ke, Object(a["g"])("div", Xe, [Object(a["g"])("div", Ge, [Object(a["g"])("div", Qe, [Object(a["g"])("table", null, [Object(a["g"])("tbody", null, [Object(a["g"])("tr", null, [et, Object(a["g"])("td", tt, Object(a["A"])(n.saleStatus), 1)]), nt, Object(a["g"])("tr", null, [at, Object(a["g"])("td", st, Object(a["A"])(e.presaleData.minimumContribute) + " ETH ", 1)]), Object(a["g"])("tr", null, [it, Object(a["g"])("td", rt, [Object(a["g"])("span", ct, Object(a["A"])(e.presaleData.maximumContribute), 1), lt])]), i.purchasedAmount ? (Object(a["u"])(), Object(a["f"])("tr", ot, [ut, Object(a["g"])("td", dt, [Object(a["g"])("span", pt, Object(a["A"])(i.totalContributor), 1)])])) : Object(a["e"])("", !0), i.purchasedAmount ? (Object(a["u"])(), Object(a["f"])("tr", mt, [bt, Object(a["g"])("td", gt, [Object(a["g"])("span", ht, Object(a["A"])(i.purchasedAmount), 1), ft])])) : Object(a["e"])("", !0)])])])])])])
+			Object(a["A"])(r.claimTokensContent), 1)])) : Object(a["e"])("", !0)]), Ze])]), Ke, Object(a["g"])("div", Xe, [Object(a["g"])("div", Ge, [Object(a["g"])("div", Qe, [Object(a["g"])("table", null, [Object(a["g"])("tbody", null, [Object(a["g"])("tr", null, [et, Object(a["g"])("td", tt, Object(a["A"])(n.saleStatus), 1)]), nt, Object(a["g"])("tr", null, [at, Object(a["g"])("td", st, Object(a["A"])(e.presaleData.minimumContribute) + " BNB ", 1)]), Object(a["g"])("tr", null, [it, Object(a["g"])("td", rt, [Object(a["g"])("span", ct, Object(a["A"])(e.presaleData.maximumContribute), 1), lt])]), i.purchasedAmount ? (Object(a["u"])(), Object(a["f"])("tr", ot, [ut, Object(a["g"])("td", dt, [Object(a["g"])("span", pt, Object(a["A"])(i.totalContributor), 1)])])) : Object(a["e"])("", !0), i.purchasedAmount ? (Object(a["u"])(), Object(a["f"])("tr", mt, [bt, Object(a["g"])("td", gt, [Object(a["g"])("span", ht, Object(a["A"])(i.purchasedAmount), 1), ft])])) : Object(a["e"])("", !0)])])])])])])
 		}
 		var vt = n("1da1"),
 		jt = (n("96cf"), n("b680"), n("4de4"), n("159b"), n("99e5")),
